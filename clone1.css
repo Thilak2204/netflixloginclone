@@ -1,0 +1,361 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+@font-face{
+    font-family: netflixfont;
+    src:url('https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff2');
+}
+
+@font-face{
+    font-family: netflixfont2;
+    src:url('https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2');
+}
+
+@font-face{
+    font-family:netflixfont3;
+    src:url('https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2');
+}
+body{
+    overflow-x: hidden;
+}
+.parentDiv{
+    height: 100vh;
+    width:100%;
+    background:radial-gradient( ellipse at center,rgba(255, 255, 255, 0.1), rgba(0,0,0,1)), url('backgroundimg1.jpg');
+    background-size: fill;
+    background-repeat: no-repeat;
+}
+#div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   height:100px;
+   width:100%;
+}
+#div2{
+   height:50%;
+   width: auto;
+}
+#div2 img{
+    width: 100%;
+}
+
+#div3{
+    display: flex;
+    align-items:last baseline;
+    justify-content: space-around;
+    height:70%;
+    width:43%; 
+}
+
+#div4{
+    height:40%;
+    width:20%;
+    position: relative;
+    left:55%;
+    top:-20px;
+}
+
+#label2{
+    height:100%;
+    width:100%;
+    background-color: black;
+    color:white;
+    
+}
+
+#b-one{
+    height:100%;
+    width:100%;
+    color: whitesmoke;
+    font-weight: bolder;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+}
+#div5{
+    height:45%;
+    width:13%;
+    position:relative;
+    left:30%;
+    top:-20px;
+    color: whitesmoke;
+}
+.containerOne{
+    text-align:center;
+    width: 100%;
+    position :absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%);
+}
+#content{
+    color:white;
+    font-family: netflixfont;
+}
+#s-one{
+    font-size: 50px;
+}
+#s-two{
+    font-size:30px;
+    font-family: netflixfont2;
+}
+#s-three{
+    font-size:20px;
+    font-family: netflixfont2;
+}
+#label{
+    height:55px;
+    width: 350px;
+    font-family: netflixfont2;
+    border-radius: 5px;
+    color:white;
+    background: rgba(70, 90, 126, 0.4);
+    border: 0.1px solid white;
+}
+#b-two{
+    height:55px;
+    width:200px;
+    font-family: netflixfont2;
+    font-weight: 600;
+    font-size:25px;
+    color:white;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.parentDiv2{
+    background-color: black;
+    height:95vh;
+    width: 100%;
+    border-top:7px solid grey;
+}
+.containertwo{
+    width: 100%;
+    position: relative;
+    top:40%;
+    color:white;
+    margin-left: 12%;
+    
+}
+
+.s-four{
+    width: fit-content;
+    font-size:60px;
+    font-style: netflixfont;
+    font-weight: 900;
+}
+.s-five{
+    width: fit-content;
+    font-size:25px;
+    font-style:netflixfont;
+}
+.s-six{
+    width: fit-content;
+    font-size:25px;
+    font-style:netflixfont;
+}
+
+.sideimg1{
+    position: relative;
+    left:55%;
+    top:7%;
+}
+
+.parentDiv3{
+    height: 100vh;
+    width: auto;
+    background-color: black;
+    border-top:7px solid grey;
+}
+.containerthree{
+    position: relative;
+    top:40%;
+    left:50%;
+    color:white;
+}
+
+.s-seven{
+    font-size:60px;
+    font-style: netflixfont;
+    font-weight: 900;
+}
+.s-eight{
+    font-size:60px;
+    font-style: netflixfont;
+    font-weight: 1000;
+}
+.s-nine{
+    font-size:25px;
+    font-style:netflixfont;
+}
+.s-ten{
+    font-size:25px;
+    font-style:netflixfont;
+}
+.sideimg2{
+    position: relative;
+    left:15%;
+    top:1%;
+}
+.parentDiv4{
+    background-color: black;
+    height:95vh;
+    width: 100%;
+    border-top:7px solid grey;
+}
+.containerfour{
+    position: relative;
+    top:40%;
+    left:12%;
+    color:white;
+}
+.s-11{
+    font-size:60px;
+    font-style: netflixfont;
+    font-weight: 900;
+}
+.s-12{
+    font-size:25px;
+    font-style:netflixfont;
+}
+.s-13{
+    font-size:25px;
+    font-style:netflixfont;
+}
+.sideimg3{
+    position: relative;
+    left:55%;
+    top:7%;
+}
+.parentDiv5{
+    height: 100vh;
+    width: auto;
+    background-color: black;
+    border-top:7px solid grey;
+}
+.containerfive{
+    position: relative;
+    top:40%;
+    left:50%;
+    color:white;
+}
+.s-14{
+    font-size:60px;
+    font-style: netflixfont;
+    font-weight: 1000;
+}
+.s-15{
+    font-size:60px;
+    font-style: netflixfont;
+    font-weight: 1000;
+}
+.s-16{
+    font-size:25px;
+    font-style:netflixfont;
+}
+.s-17{
+    font-size:25px;
+    font-style:netflixfont;
+}
+.s-18{
+    font-size:25px;
+    font-style:netflixfont;
+}
+.sideimg4{
+    position: relative;
+    left:15%;
+    top:1%;
+}
+.parentDiv6{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-top:7px solid grey;
+    padding-bottom: 80px;
+}
+#heading{
+    text-align: center;
+    color: white;
+    padding-top:35px;
+    font-style: netflixfont;
+    font-size:30px;
+}
+.containersixgrid{
+    display:grid;
+    grid-template-columns: 90%;
+    color: white;
+    padding-top: 2%;
+    padding-left: 15%;
+    row-gap: 5px;
+}
+.grid{
+    border:2px solid black;
+    padding:20px;
+    font-style: netflixfont;
+    font-size:30px;
+    background-color:  rgb(35, 35, 38);
+}
+.containerseven{
+    text-align: center;
+    color: white;
+    padding-top:20px;
+    font-style:netflixfont;
+    font-size:25px;
+    margin-bottom: 20px;
+}
+
+.lastContainer{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    justify-content:center;
+    gap:5px;
+}
+#b-four{
+    height:56px;
+    width:190px;
+    font-style: netflixfont;
+    font-size:25px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+#footer{
+    height: 100%;
+    background-color: white;
+    border-top:7px solid grey;
+}
+#containereight{
+    color: white;
+    font-style: netflixfont;
+    font-size:17px;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 4%;;
+}
+.cg2{
+    display:grid;
+    grid-template-columns:300px 300px 300px 300px;
+    grid-template-rows: 50px 50px 50px 50px;
+    position:relative;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+a{
+    text-decoration: none;
+    font-size:20px;
+    color: white;
+} 
+
+
+
+
+
+
+
+
+
+
+
